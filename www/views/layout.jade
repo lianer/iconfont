@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        title= title
+        block link
+            
+        block headScript
+            script(src='/static/js/common.js')
+    body
+        block content
+        block footScript
+            script(src='/static/js/jquery-1.9.0.js')
+            script(src='/static/js/jquery-tmpl.js')
+        <!-- livereload -->
+        <script src="http://127.0.0.1:35729/livereload.js" async="async" defer="defer"></script>
